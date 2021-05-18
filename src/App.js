@@ -37,12 +37,12 @@ class App extends Component{
         <div className="row">
           <div className="col-sm-6 mx-auto text-white shadow-lg p-3">
             <h1 className="text-center">
-              Todays Paln's
+              Todo List's
             </h1>
             <div className="row">
               <div className="col-9">
                 <input type="text" className="form-control"
-                placeholder="Write Plan here" value={this.state.text} onChange={this.handleChange}/>
+                placeholder="Write Your Plan" value={this.state.text} onChange={this.handleChange}/>
               </div>
               <div className="col-2">
                 <button className="btn btn-warning px-5 font-weight-bold" onClick={this.handleSubmit}>ADD</button>
