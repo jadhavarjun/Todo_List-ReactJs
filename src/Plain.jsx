@@ -2,7 +2,7 @@
 
 function Plan(props){
     return <>
-    <li>Paln 1</li>
+    <li>{props.value}</li>
     </>
 }
 export default Plan;

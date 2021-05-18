@@ -4,7 +4,7 @@ import react,{Component} from 'react';
 import Plan from './Plain';
 class App extends Component{
   state={
-    item:[],
+    items:[],
     text:""
   }
 
