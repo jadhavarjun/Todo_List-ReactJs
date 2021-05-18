@@ -16,7 +16,7 @@ class App extends Component{
                 placeholder="Write Plan here" />
               </div>
               <div className="col-2">
-                <button className="btn btn-warning">ADD</button>
+                <button className="btn btn-warning px-5 font-weight-bold">ADD</button>
               </div>
             </div>
           </div>
