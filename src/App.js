@@ -6,10 +6,19 @@ class App extends Component{
     return (
       <div className="container-fluid my-5">
         <div className="row">
-          <div className="col-sm-6 mx-auto text-white shadow-lg">
+          <div className="col-sm-6 mx-auto text-white shadow-lg p-3">
             <h1 className="text-center">
               Todays Paln's
             </h1>
+            <div className="row">
+              <div className="col-9">
+                <input type="text" className="form-control"
+                placeholder="Write Plan here" />
+              </div>
+              <div className="col-2">
+                <button className="btn btn-warning">ADD</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
