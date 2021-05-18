@@ -1,6 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import react,{Component} from 'react';
+import Plan from './Plain';
 class App extends Component{
   render(){
     return (
@@ -17,6 +18,11 @@ class App extends Component{
               </div>
               <div className="col-2">
                 <button className="btn btn-warning px-5 font-weight-bold">ADD</button>
+              </div>
+              <div className="container-fluid">
+                <ul class="list-unstyled row m-5">
+                  <Plan/>
+                </ul>
               </div>
             </div>
           </div>
