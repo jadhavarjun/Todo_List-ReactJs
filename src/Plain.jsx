@@ -2,7 +2,7 @@
 
 function Plan(props){
     return <>
-    {console.log("paln")}
+    <li>Paln 1</li>
     </>
 }
 export default Plan;
